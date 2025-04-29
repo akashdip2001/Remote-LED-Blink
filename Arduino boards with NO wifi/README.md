@@ -2,6 +2,8 @@ Control the onboard LED of your **Arduino Nano** on **local Wi-Fi network (LAN)*
 
 https://github.com/user-attachments/assets/3149e144-ed85-4816-860e-ef03a3be9ade
 
+> click to see all `Python projects` - [GitHub repo](https://github.com/akashdip2001/Python-Projects)
+
 ---
 
 ## 🧰 What You Need:
@@ -36,6 +38,9 @@ Open a terminal (CMD or PowerShell on Windows, or Terminal on macOS/Linux) and r
 pip install pyserial flask
 ```
 
+<img src="public/Screenshot (418).png">
+<img src="public/Screenshot (420).png">
+
 ---
 
 ## 💡 Step 2: Arduino Sketch
@@ -59,6 +64,8 @@ void loop() {
   }
 }
 ```
+
+<img src="public/Screenshot (421).png">
 
 1. Select the correct board: **Tools > Board > Arduino Nano**
 2. Select the correct port: **Tools > Port**
@@ -191,6 +198,8 @@ You should see:
 Running on http://0.0.0.0:5000/
 ```
 
+<img src="public/Screenshot (422).png">
+
 Now it’s serving requests over your local network!
 
 ---
@@ -215,7 +224,13 @@ ifconfig
 
 ### 📲 On your mobile browser, open:
 
+```go
+<YOUR_LAPTOP_IP>:5000
 ```
+
+#### 🔵 To controle the [old](https://github.com/akashdip2001/Python-Projects/blob/main/18%20Arduino%20(no%20WiFi)%20LED%20control%20via%20LAN/arduino_server.py) `py code`
+
+```go
 http://<YOUR_LAPTOP_IP>:5000/led/on   --> turns LED on
 http://<YOUR_LAPTOP_IP>:5000/led/off  --> turns LED off
 ```
@@ -225,5 +240,7 @@ Example:
 ```
 http://192.168.1.12:5000/led/on
 ```
+
+https://github.com/user-attachments/assets/e735205a-fa8d-47a8-b8b5-1919fff2579d
 
 ---
