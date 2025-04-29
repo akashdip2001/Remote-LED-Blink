@@ -225,7 +225,3 @@ http://192.168.1.12:5000/led/on
 ```
 
 ---
-
-## ✅ Done! Your Arduino LED is now controllable via your mobile device on the same Wi-Fi.
-
-Would you like me to help you add a simple mobile-friendly web interface (buttons) instead of typing URLs manually?
