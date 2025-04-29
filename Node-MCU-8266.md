@@ -120,4 +120,8 @@ void loop() {
 }
 ```
 
+### 🟢 connect the `WIFI` and open the `mobile Browser` and type `192.168.4.1`
+
+</br>
+
 https://github.com/user-attachments/assets/385bdbcf-755d-4292-91d1-2c45f7a3d63a
