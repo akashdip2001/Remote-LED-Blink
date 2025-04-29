@@ -1,3 +1,11 @@
+<div style="display: flex; justify-content: center; gap: 2%; flex-wrap: wrap; margin-top: 20px;">
+  <img src="https://github.com/user-attachments/assets/287fccdb-0a3b-4b70-951a-fc575f3a96ac" alt="Image 3" width="46%" />
+  <img src="https://github.com/akashdip2001/ESP32-host-HTML-website/raw/main/img/ESP32-38%20PIN-DEVBOARD.png" alt="Image 4" width="46%" />
+</div>
+
+<details>
+  <summary style="opacity: 0.85;"><b>more imges</b></summary><br>
+
 <p float="center">
    <img src="https://github.com/user-attachments/assets/287fccdb-0a3b-4b70-951a-fc575f3a96ac" alt="Image 3" width="64%" />
    <img src="https://github.com/user-attachments/assets/3f316090-6ef6-4700-ba48-05222f9d6f6a" alt="Image 4" width="34%" />
@@ -8,6 +16,8 @@
   <img src="https://github.com/user-attachments/assets/ddddd859-546c-4857-b9fa-d30870a2127d" alt="Image 4" width="48.5%" />
 </div>
 
+</details>
+   
 ---
 
 ## 💡 NodeMCU LED Control as AP
