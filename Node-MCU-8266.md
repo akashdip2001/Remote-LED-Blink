@@ -19,7 +19,8 @@
 ![Screenshot (337)](https://github.com/user-attachments/assets/f7555fd4-a409-4cbf-898a-4750eff02c7e)
 
 ```cpp
-#include <ESP8266WiFi.h>
+#include <ESP8266WiFi.h> // for ESP 8266
+// #include <WiFi.h> // for ESP 32
 
 const char* ssid = "ESP8266_LED";
 const char* password = "12345678";
